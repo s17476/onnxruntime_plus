@@ -1,6 +1,6 @@
-# onnxruntime_example
+# onnxruntime_plus_example
 
-Demonstrates how to use the onnxruntime plugin.
+Demonstrates how to use the onnxruntime_plus plugin.
 
 ## Getting Started
 

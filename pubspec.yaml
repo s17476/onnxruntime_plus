@@ -1,7 +1,9 @@
-name: onnxruntime
-description: Flutter plugin for OnnxRuntime provides an easy, flexible, and fast Dart API to integrate Onnx models in flutter apps across mobile and desktop platforms.
-version: 1.4.1
-homepage: https://github.com/gtbluesky/onnxruntime_flutter
+name: onnxruntime_plus
+description: Flutter FFI plugin for ONNX Runtime with iOS Swift Package Manager support and cross-platform Dart bindings.
+version: 1.4.2
+homepage: https://github.com/Masum-MSNR/onnxruntime_plus
+repository: https://github.com/Masum-MSNR/onnxruntime_plus
+issue_tracker: https://github.com/Masum-MSNR/onnxruntime_plus/issues
 
 environment:
   sdk: '>=2.17.0 <4.0.0'
@@ -35,6 +37,5 @@ flutter:
 
 topics:
   - onnx
-  - tflite
-  - pytorch
   - ai
+  - machine-learning

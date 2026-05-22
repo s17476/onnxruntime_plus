@@ -1,11 +1,11 @@
 <p align="center"><img width="50%" src="https://github.com/microsoft/onnxruntime/raw/main/docs/images/ONNX_Runtime_logo_dark.png" /></p>
 
-# OnnxRuntime Plugin
-[![pub package](https://img.shields.io/pub/v/onnxruntime.svg)](https://pub.dev/packages/onnxruntime)
+# onnxruntime_plus
+[![pub package](https://img.shields.io/pub/v/onnxruntime_plus.svg)](https://pub.dev/packages/onnxruntime_plus)
 
 ## Overview
 
-Flutter plugin for OnnxRuntime via `dart:ffi` provides an easy, flexible, and fast Dart API to integrate Onnx models in flutter apps across mobile and desktop platforms.
+Flutter plugin for ONNX Runtime via `dart:ffi` with iOS Swift Package Manager support and cross-platform Dart bindings.
 
 | **Platform**      | Android       | iOS | Linux | macOS | Windows |
 |-------------------|---------------|-----|-------|-------|---------|
@@ -30,7 +30,7 @@ In your flutter project add the dependency:
 ```yml
 dependencies:
   ...
-  onnxruntime: x.y.z
+  onnxruntime_plus: x.y.z
 ```
 
 ## Usage example
@@ -38,7 +38,7 @@ dependencies:
 ### Import
 
 ```dart
-import 'package:onnxruntime/onnxruntime.dart';
+import 'package:onnxruntime_plus/onnxruntime_plus.dart';
 ```
 
 ### Initializing environment
@@ -77,4 +77,9 @@ outputs?.forEach((element) {
 ```dart
 OrtEnv.instance.release();
 ```
+
+## Apple packaging
+
+For iOS, this package supports both CocoaPods fallback and Swift Package Manager integration.
+The Swift package uses the official ONNX Runtime iOS binary archive published by Microsoft.
 

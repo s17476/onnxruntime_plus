@@ -1,3 +1,9 @@
+## 1.4.2
+
+* Rename the package to `onnxruntime_plus`.
+* Add iOS Swift Package Manager support using the official ONNX Runtime binary archive.
+* Keep CocoaPods fallback support for Apple builds where Swift Package Manager is disabled.
+
 ## 1.4.1
 
 * Fixes a memory leak when creating tensor.

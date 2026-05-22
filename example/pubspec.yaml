@@ -1,5 +1,5 @@
-name: onnxruntime_example
-description: Demonstrates how to use the onnxruntime plugin.
+name: onnxruntime_plus_example
+description: Demonstrates how to use the onnxruntime_plus plugin.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -31,9 +31,9 @@ dependencies:
   flutter:
     sdk: flutter
 
-  onnxruntime:
+  onnxruntime_plus:
     # When depending on this package from a real application you should use:
-    #   onnxruntime: ^x.y.z
+    #   onnxruntime_plus: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints
     # The example app is bundled with the plugin so we use a path dependency on
     # the parent directory to use the current plugin's version.
@@ -60,6 +60,8 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  config:
+    enable-swift-package-manager: true
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
