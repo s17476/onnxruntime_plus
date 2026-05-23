@@ -17,7 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "onnxruntimeMacOS",
-            path: "onnxruntime_macos.xcframework"
+            url: "https://raw.githubusercontent.com/Masum-MSNR/onnxruntime_plus/spm-artifacts-1.4.2/macos/onnxruntime_plus/onnxruntime_macos.xcframework.zip",
+            checksum: "ffe45ed7114a178d9fc2eb9eac67a5cb534133f37c8e4aaa9eb7266a400fdc28"
         ),
         .target(
             name: "onnxruntime_plus",
