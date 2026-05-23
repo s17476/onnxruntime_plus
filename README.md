@@ -3,6 +3,15 @@
 # onnxruntime_plus
 [![pub package](https://img.shields.io/pub/v/onnxruntime_plus.svg)](https://pub.dev/packages/onnxruntime_plus)
 
+## Fork Status
+
+This package is a fork of the original [`onnxruntime`](https://pub.dev/packages/onnxruntime) Flutter plugin.
+It is kept mainly to ship Apple packaging fixes, especially iOS Swift Package Manager support,
+and related compatibility updates that are not available in the older package.
+
+Maintenance is best-effort and focused on keeping the package usable for current projects,
+not on broad feature development.
+
 ## Overview
 
 Flutter plugin for ONNX Runtime via `dart:ffi` with iOS Swift Package Manager support and cross-platform Dart bindings.
@@ -82,4 +91,5 @@ OrtEnv.instance.release();
 
 For iOS, this package supports both CocoaPods fallback and Swift Package Manager integration.
 The Swift package uses the official ONNX Runtime iOS binary archive published by Microsoft.
+This fork also keeps Apple package metadata in sync for newer Flutter package-manager expectations.
 
