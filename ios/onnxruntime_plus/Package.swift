@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "onnxruntime_plus",
     platforms: [
-        .iOS("11.0")
+        .iOS("13.0")
     ],
     products: [
         .library(name: "onnxruntime-plus", targets: ["onnxruntime_plus"])
